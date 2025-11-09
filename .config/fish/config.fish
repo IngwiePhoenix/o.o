@@ -1,3 +1,4 @@
+### Greeting
 set fish_greeting ""
 if status is-interactive
     if command -q fastfetch
@@ -6,11 +7,16 @@ if status is-interactive
     lnk pull >/dev/null || echo "[init] lnk is not installed."
 end
 
+### Aliases
+alias ls="ls -aGp --color"
+
+### Editor
 if ! command -q flow
   curl -fsSL https://flow-control.dev/install | sh
 end
 setenv EDITOR flow
 
+### Paths
 # define an (initially empty) list of paths
 set paths_to_add
 
