@@ -5,3 +5,5 @@
 .config/flow/themes/default.json
 .config/helm/repositories.yaml
 .config/htop/htoprc
+.config/k9s/aliases.yaml
+.config/k9s/config.yaml
