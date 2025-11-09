@@ -6,6 +6,9 @@ if status is-interactive
     lnk pull >/dev/null || echo "[init] lnk is not installed."
 end
 
+if ! command -q flow
+  curl -fsSL https://flow-control.dev/install | sh
+end
 setenv EDITOR flow
 
 # define an (initially empty) list of paths
