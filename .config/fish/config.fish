@@ -1,6 +1,8 @@
 set fish_greeting ""
 if status is-interactive
-    fastfetch || echo "[init] fastfetch not found."
+    if command -q fastfetch
+        fastfetch
+    end
     lnk pull >/dev/null || echo "[init] lnk is not installed."
 end
 
