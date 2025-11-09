@@ -1,4 +1,5 @@
 .config/btop/btop.conf
+.config/elvish/rc.elv
 .config/fish/config.fish
 .config/flow/config
 .config/flow/themes/default.json
