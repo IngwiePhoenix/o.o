@@ -3,4 +3,5 @@
 .config/fish/config.fish
 .config/flow/config
 .config/flow/themes/default.json
+.config/helm/repositories.yaml
 .config/htop/htoprc
