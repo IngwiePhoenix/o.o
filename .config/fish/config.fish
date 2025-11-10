@@ -3,6 +3,8 @@ set fish_greeting ""
 if status is-interactive
     if command -q fastfetch
         fastfetch
+    else if command -q pfetch
+        pfetch
     end
     lnk pull >/dev/null || echo "[init] lnk is not installed."
 end
