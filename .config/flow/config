@@ -23,8 +23,8 @@ theme "1984"
 # default_cursor "default"
 # enable_auto_save false
 # limit_auto_save_file_types null
-# indent_size 4
-# tab_width 8
+indent_size 2
+tab_width 2
 # indent_mode "auto"
 # top_bar "tabs"
 # bottom_bar "mode file log selection diagnostics keybind branch linenumber clock spacer"
